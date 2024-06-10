@@ -151,8 +151,16 @@ header img {
 }
 
 .champs {
+    width: 200px;
     text-align: center;
-        
+    border: 1px solid black;
+    margin: 0 auto;
+    
+    
+}
+.bouton input{
+    text-align: left;
+    margin: 20px 100px;
     
 }
  footer {
