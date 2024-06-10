@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+h1,h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  img {
+    width: 75px;
+    height: 75px;
+
+  }
+  
+.bandeau {
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+ }
+
+.titre {
+    width: 100%;
+    height: 100px;
+    background-color: #16a34a;
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+       
+    
+}
+
+.img-logo {
+    width: 50%;
+    height: 50px;
+    
+    margin: auto 50px;
+    
+}
+
+.bt-color {
+    width: 18%;
+    margin: auto;
+    display: flex;
+    margin: auto 50px;
+   
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    width: 75px;
+    height: 50px;
+}
+
+.bt-green-theme {
+    background-color:#16a34a;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+.bt-blue-theme {
+    background-color:#2563eb;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.Soulignement-h1{
+    width: 100px;
+    border-bottom: 1px solid rgb(184, 150, 150);
+    margin: auto;
+    padding: 3px 0;
+}
+
+.section1 {
+    max-width: 100%;
+    margin: 30px 0;
+   
+ }
+
+ .section1 h2,.section2 h2 .section3{
+    text-decoration: underline;
+   
+ }
+
+.img-profil {
+    width: 200px; 
+    height: 200px; 
+    background-image: url('/img/portrait.jpg'); 
+    background-size: 319px 200px;
+    background-position: 182px -1px;
+    margin: auto 50px;
+    
+    border: 3px solid #16a34a;
+    border-radius: 50%;
+
+}
+.mon-profil {
+    margin: 10px 0;
+    max-width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mon-profil p {
+    margin: auto 0;
+    
+    
+}
+
+.mon-profil p{
+    width: 300px;
+    line-height: 20px;
+}
+
+.icones ,.formulaire{
+    margin: 30px 0;
+}
+.icones img {
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icones img:hover {
+    transform: rotate(15deg);
+}
+
+.champs {
+    text-align: center;
+        
+    
+}
+ footer {
+    background-color: #16a34a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    width: 100%;
+    
+}
+
+footer  {
+    margin: 0;
+    
+} 

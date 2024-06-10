@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Voici mon profil : je suis John Doe developpeur web passionné par l informatique">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Porfolio John Doe</title>
+</head>
+<body>
+    <header>
+        <div class="bandeau">
+            <div class="img-logo">
+                <img src="/img/logo-john-doe.svg" alt="logo">
+            </div>
+            <div class="bt-color">
+                <div class="bt-green-theme">
+
+                </div>
+                <div class="bt-blue-theme">
+                    
+                </div>
+            </div>
+
+        </div>
+        <div class="titre">
+            <h1>John Doe - Développeur Web</h1>
+            <div class="Soulignement-h1"></div>
+        </div>
+
+
+    </header>
+    <main>
+        <section class="section1">
+            <h2>Mon Profil</h2>
+            <div class="mon-profil">
+                
+                <div class="img-profil"></div>
+                <p>Développeur web de père en fils, passionné par la technologie et
+                    l'innovation. J'ai acquis une expertise en HTML, CSS, JavaScript
+                    et Git, me permettant de créer des sites web performants et
+                    esthétiques. Prêt à relever de nouveaux défis.</p>
+            </div>
+        </section>
+        <section class="section2">
+            <h2>Mes Compétences</h2>
+            <div class="icones">
+                <img src="/img/html.svg" alt="icone html">
+                <img src="/img/css.svg" alt="icone css">
+                <img src="/img/js.svg" alt="icone JavaScript">
+                <img src="/img/git.svg" alt="icone git">
+                
+            </div>
+        </section>
+        <section class="section3">
+            <h2>Me contacter</h2>
+            <div class="formulaire">
+                <form method="get" action="#">
+                    <div class="champs">
+                        <label for="nom">Nom *</label>
+                        <br>
+                        <input type="text" id="nom" name="nom" required/>
+                        <br>
+                        <label for="prenom">Prénom *</label>
+                        <br>
+                        <input type="text" id="prenom" name="prenom" required/>
+                        <br>
+                        <label for="email">Email *</label>
+                        <br>
+                        <input type="text" id="email" name="email" required/>
+                        <br>
+                        <label for="tel">Téléphone (falcultatif) :</label>
+                        <br>
+                        <input type="text" id="tel" name="tel" />
+                        <br>
+                        <label for="message">Message *</label>
+                        <!-- <input type="text" id="message" name="message" rows="10" cols="30" required/> -->
+                        <textarea id="message" name="message" required  placeholder="Écrivez votre message ici..."> </textarea>
+                        <br>
+                    </div>
+                    <div class="bouton">
+                        <input type="submit" value="Envoyer" />
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 John Doe officiel</p>
+    </footer>
+
+    <script>script.js</script>
+</body>
+</html>
